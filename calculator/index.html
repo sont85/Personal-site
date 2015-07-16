@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="../favicon.jpeg">
-
     <style>
       body {
         padding-top: 80px;
@@ -56,7 +54,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="https://github.com/sont85"><i class="fa fa-github"></i> Github</a></li>
                     <li><a href="https://www.linkedin.com/pub/son-truong/b8/888/427"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
-                    <li><a href="https://twitter.com/Fade_2_bliss"><i class="fa fa-twitter"></i> Twitter</a></li>  
+                    <li><a href="https://twitter.com/Fade_2_bliss"><i class="fa fa-twitter"></i> Twitter</a></li>
                   </ul>
                 </li>
 
@@ -68,8 +66,6 @@
                 </li>
 
                   <!-- dropdown menu  Links -->
-
-
               </ul>
             </div>
           </div> <!-- end of collapse -->
@@ -78,49 +74,50 @@
     </div><!--end of container-->
 
     <div class="container">
-      <h3 class="page-header">Calculator</h3>
       <div class="row">
-        <div id="answerDiv">
-          <div id="answerDisplay" >0</div>
-        </div>
+        <div class="col-sm-6 col-sm-offset-2">
+          <h3>Calculator</h3>
+          <div class="row">
+            <div id="answerDiv">
+              <div id="answerDisplay" >0</div>
+            </div>
+          </div>
+          <div class="row">
+            <button class="btn btn-default col-xs-4" id="deleteButton">&larr;</button>
+            <button class="btn btn-default col-xs-4" id="squareRootButton">&radic;</button>
+            <button class="btn btn-default col-xs-4" id="clearButton">C</button>
+            <button class="btn btn-default col-xs-4 operator" id="addButton">&#x2b;</button>
+          </div>
+          <div class="row">
+            <button class="numbers btn btn-default col-xs-4">7</button>
+            <button class="numbers btn btn-default col-xs-4">8</button>
+            <button class="numbers btn btn-default col-xs-4">9</button>
+            <button class="btn btn-default col-xs-4 operator" id="subtractButton">&minus;</button>
+
+          </div>
+          <div class="row">
+            <button class="numbers btn btn-default col-xs-4">4</button>
+            <button class="numbers btn btn-default col-xs-4">5</button>
+            <button class="numbers btn btn-default col-xs-4">6</button>
+            <button class="btn btn-default col-xs-4 operator" id="multiplyButton">&times;</button>
+
+          </div>
+          <div class="row">
+            <button class="numbers btn btn-default col-xs-4">1</button>
+            <button class="numbers btn btn-default col-xs-4">2</button>
+            <button class="numbers btn btn-default col-xs-4">3</button>
+            <button class="btn btn-default col-xs-4 operator" id="divideButton">&divide;</button>
+
+          </div>
+          <div class="row">
+            <button class="numbers btn btn-default col-xs-4">0</button>
+            <button class="btn btn-default col-xs-4" id="decimalButton">&#x2e;</button>
+            <button class="btn btn-default col-xs-4" id="plusMinusButton">&plusmn;</button>
+            <button class="btn btn-default col-xs-4" id="equalButton">&#x3d;</button>
+
+          </div>
       </div>
-      <div class="row">
-        <button class="btn btn-default col-xs-4" id="deleteButton">&larr;</button>
-        <button class="btn btn-default col-xs-4" id="squareRootButton">&radic;</button>
-        <button class="btn btn-default col-xs-4" id="clearButton">C</button>
-        <button class="btn btn-default col-xs-4 operator" id="addButton">&#x2b;</button>
-      </div>
-      <div class="row">
-        <button class="numbers btn btn-default col-xs-4">7</button>
-        <button class="numbers btn btn-default col-xs-4">8</button>
-        <button class="numbers btn btn-default col-xs-4">9</button>
-        <button class="btn btn-default col-xs-4 operator" id="subtractButton">&minus;</button>
-
-      </div>
-      <div class="row">
-        <button class="numbers btn btn-default col-xs-4">4</button>
-        <button class="numbers btn btn-default col-xs-4">5</button>
-        <button class="numbers btn btn-default col-xs-4">6</button>
-        <button class="btn btn-default col-xs-4 operator" id="multiplyButton">&times;</button>
-
-      </div>
-      <div class="row">
-        <button class="numbers btn btn-default col-xs-4">1</button>
-        <button class="numbers btn btn-default col-xs-4">2</button>
-        <button class="numbers btn btn-default col-xs-4">3</button>
-        <button class="btn btn-default col-xs-4 operator" id="divideButton">&divide;</button>
-
-      </div>
-      <div class="row">
-        <button class="numbers btn btn-default col-xs-4">0</button>
-        <button class="btn btn-default col-xs-4" id="decimalButton">&#x2e;</button>
-        <button class="btn btn-default col-xs-4" id="plusMinusButton">&plusmn;</button>
-        <button class="btn btn-default col-xs-4" id="equalButton">&#x3d;</button>
-
-      </div>
-
-
-
+    </div>
     </div> <!--end of container-->
     <audio src="clickSound.mp3" type="audio/mp3" id="clickAudio"></audio>
 
@@ -130,4 +127,3 @@
     <script src="calculator.js"></script>
   </body>
 </html>
-

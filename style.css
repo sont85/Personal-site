@@ -1,24 +1,32 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+body {
+  background: dimgrey;
+  padding-top: 650px;
+  padding-bottom: 50px;
+}
 .card-image img {
   height: 150px;
 }
-
-nav {
-  background: #26a69a;
+.button-icon {
+  border-radius: 50%;
+  width: 35px;
 }
-
-p {
-  line-height: 2rem;
+.buttonDiv {
+  padding: 40px;
 }
-
-.button-collapse {
-  color: white;
+.buttonDiv a {
+  margin: 0px 20px;
+}
+.btn,
+.btn-large{
+  background-color: sienna;
+  box-shadow: 0 10px 10px #444;
+}
+.language-title {
+  color: #CF4646;
+  text-shadow: 3px 3px 3px #000
+}
+.letter-spacing {
+  letter-spacing: 10px
 }
 
 .parallax-container {

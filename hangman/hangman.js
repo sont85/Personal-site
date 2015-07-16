@@ -149,7 +149,7 @@ function randomPick() {
 	var categoryName = Object.keys(selectedCategory);
 	var categoryArray = selectedCategory[categoryName];
 	var randomNumber2 = ( Math.floor(Math.random() * categoryArray.length));
-	
+
 	displayCategory(categoryName);
 
 	console.log(categoryArray[randomNumber2]);
@@ -303,9 +303,7 @@ function addToDiv(letterIndex, chosenLetter) {
 $(document).ready(function(){
 	"use strict";
 
-    $("#email").tooltip();
-    $(".animsition").animsition();
-
+  $("#email").tooltip();
 	startGame();
 
 	$("#playAgain").on("click", function(){
