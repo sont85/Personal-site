@@ -3,6 +3,9 @@ body {
   padding-top: 55%;
   padding-bottom: 50px;
 }
+.card {
+  height: 300px;
+}
 .card-image img {
   height: 150px;
 }
